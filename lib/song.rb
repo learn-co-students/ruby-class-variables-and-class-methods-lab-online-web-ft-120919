@@ -8,13 +8,9 @@ class Song
         @name = name
         @artist = artist
         @genre = genre
-        #@@genres ||= []
           @@genres << genre
-        #@@artists ||= []
         @@artists << artist
-        # if !(@@artists.include?(@artist))
-        #   @@artists << artist
-        # end
+        
     end
     
     def self.count
